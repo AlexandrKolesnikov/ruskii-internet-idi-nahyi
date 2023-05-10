@@ -1,0 +1,25 @@
+{
+  "name": "Stop Russian Youtube",
+  "version": "1.0.0",
+  "description": "Stop thousands of deaths in the center of Europe",
+  "manifest_version": 3,
+  "author": "Ukraine",
+  "action":{
+    "default_popup": "index.html",
+    "default_title": "Stop Russian Youtube"
+  },
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab",
+    "storage",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

